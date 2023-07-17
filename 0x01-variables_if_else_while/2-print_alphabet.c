@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-/*
+/**
  * main - Entry point
  *
- * Description: print all alphabet letters with lower vase letter
+ * Description: print all alphabet letters in lowercasei
  *
- * Return: 0 (Success)
-*/
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 {
@@ -20,4 +20,3 @@ int main(void)
 	putchar('\n');
 
 	return (0);
-
