@@ -9,19 +9,17 @@
  *
 */
 
-void print_most_numbers(void);
+void print_most_numbers(void)
 
 {
 
-	int c = 0;
+	int c;
 
-	while (c <= 9 && c != 2, 4)
+	for (c = 0; c <= 9; c++)
 	{
-		_putchar(c);
-	c++;
+		if (c == 2 || c == 4)
+			continue;
+		_putchar(c + 48);
 	}
-
 	_putchar('\n');
-
-	return (0);
 }
