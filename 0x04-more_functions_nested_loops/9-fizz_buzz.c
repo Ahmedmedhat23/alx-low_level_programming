@@ -8,11 +8,9 @@
  * Return: Alwyas 0 (Success)
 */
 
-int maiin(void)
+int main(void)
 {
-	int i;
-
-	for (i = 1; i <= 100; i++)
+	for (int i = 1; i <= 100; i++)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
 		{
@@ -28,9 +26,8 @@ int maiin(void)
 		}
 		else
 		{
-			printf("%d ");
+			printf("%d ", i);
 		}
 	}
-
 	return (0);
 }
