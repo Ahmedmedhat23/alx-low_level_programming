@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _puts2 - even
+ * puts2 - print even integers
  *
  * @str: string parameter input
  *
@@ -16,6 +16,7 @@ void puts2(char *str)
 	for (i = 0; str[i] != '\0'; i++)
 	{
 		if (i % 2 == 0)
+
 			_putchar(str[i]);
 	}
 	_putchar('\n');
