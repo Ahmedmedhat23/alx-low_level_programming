@@ -11,15 +11,15 @@
 void rev_string(char *s)
 
 {
-        int i = 0;
-        while (s[i])
-                i++;
-        while (i--)
-        {       
-                _putchar(s[i]);
-        }       
-        _putchar('\n');
+	int l, i;
+	char temp;
+
+	for (l = 0; s[l] != '\0'; ++i)
+		;
+	for (i = 0; i < 1 / 2; i++)
+	{
+		temp = s[i];
+		s[i] = s[l - 1 - i];
+		s[l - 1 - i] = temp;
+	}
 }
-
-
-{
